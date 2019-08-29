@@ -1,6 +1,8 @@
 # sagittarius
 Sagittarius - a github bot that auto-review and comment code in new opened PR's
 
+<center><img src="https://github.com/Gherciu/sagittarius/blob/master/sagittarius-logo.png" alt="sagittarius" width="150px" height="150px"/></center>
+
 #### Getting started
 
 In your repo create a `.sagettariusrc.js` config file.
