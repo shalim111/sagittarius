@@ -20,7 +20,7 @@ Then start the bot in background mode.
 
 
 #### Cli commands:
-- `start` - to initialize a background job why listen and validate new PR's
+- `start` - to initialize a background job who listen and validate new PR's
 
 ---
 
