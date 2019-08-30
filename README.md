@@ -9,7 +9,11 @@ A list of javascript most used utils
 
 Email validation
 ```js
-const validateEmail = (email) => /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(email)
+const validateEmail = email => /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(email)
+```
+Password validation
+```js
+const validatePassword = password => /^(?=.*[a-z])(?=.*[0-9])(?=.*[A-Z])(?=.*[#$^+=!*()@%&]).{8,20}$/.test(password)
 ```
 
 ## Contributing
