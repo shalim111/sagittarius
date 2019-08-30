@@ -1,26 +1,7 @@
 # sagittarius
-Sagittarius - a github bot that auto-review and comment code in new opened PR's
+...
 
 <center><img src="https://github.com/Gherciu/sagittarius/blob/master/sagittarius-logo.png" alt="sagittarius" width="150px" height="150px"/></center>
-
-#### Getting started
-
-In your repo create a `.sagettariusrc.js` config file.
-All available config settings are available [here](http://github.com). Or see a example of minimal config [here](http://github.com).
-
-Globally install sagittarius cli.
-`npm i -g sagittarius`
-
-Then start the bot in background mode.
-` sagittarius start`
-
-#### Config settings:
-- `repo` - URL to github repo [see usage](http://github.com)
-- `validateCommitMessage` - a function that validate config message [see usage](http://github.com)
-
-
-#### Cli commands:
-- `start` - to initialize a background job who listen and validate new PR's
 
 ---
 
