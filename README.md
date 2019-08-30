@@ -5,7 +5,7 @@ A list of javascript most used utils
 
 ---
 
-#### Inputs validation
+#### User inputs validation
 
 Email validation
 ```js
