@@ -4,9 +4,15 @@ A list of javascript most used utils
 <center><img src="https://github.com/Gherciu/sagittarius/blob/master/sagittarius-logo.png" alt="sagittarius" width="150px" height="150px"/></center>
 
 ---
+#### Data generation
+
+```js
+const random = (min, max) => Math.random() * (max - min) + min
+```
+
 #### Data validation
 
-Emty data validation
+Empty data validation
 ```js
 const isEmpty = value => {
   if(Array.isArray(value))
