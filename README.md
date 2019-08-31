@@ -4,6 +4,16 @@ A list of javascript most used utils
 <center><img src="https://github.com/Gherciu/sagittarius/blob/master/sagittarius-logo.png" alt="sagittarius" width="150px" height="150px"/></center>
 
 ---
+#### Data validation
+
+Emty data validation
+```js
+const isEmpty = value => {
+  if(Array.isArray(value))
+    return !value.length
+  return value === null || value === '' || value === undefined || (typeof value === 'object' && !Object.keys(value).length)
+}
+```
 
 #### User inputs validation
 
