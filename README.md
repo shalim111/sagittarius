@@ -6,13 +6,14 @@ A list of javascript most used utils
 ---
 #### Data generation
 
+- Random number generation from range
 ```js
 const random = (min, max) => Math.random() * (max - min) + min
 ```
 
 #### Data validation
 
-Empty data validation
+- Empty data validation
 ```js
 const isEmpty = value => {
   if(Array.isArray(value))
@@ -23,11 +24,11 @@ const isEmpty = value => {
 
 #### User inputs validation
 
-Email validation
+- Email validation
 ```js
 const validateEmail = email => /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(email)
 ```
-Password validation
+- Password validation
 ```js
 const validatePassword = password => /^(?=.*[a-z])(?=.*[0-9])(?=.*[A-Z])(?=.*[#$^+=!*()@%&]).{8,20}$/.test(password)
 ```
